@@ -1,3 +1,9 @@
 # ladno.studio
 
-Сайт студии Ladno. Пока временная страница на GitHub Pages; домен через Namecheap BasicDNS.
+Сайт студии Ladno. Статика в `public/`, хостинг — Cloudflare Workers (static assets).
+
+Деплой:
+
+```bash
+npx wrangler deploy
+```
